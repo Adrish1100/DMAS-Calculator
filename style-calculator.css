@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #1a1a1a;
+    margin: 0;
+}
+
+.container {
+    border: 2px solid black;
+    width: 95%;
+    max-width: 420px;
+    background-color: #333;
+    margin: 60px auto;
+    padding: 25px;
+    border-radius: 15px; /*the command which rounds/smooths out the edges*/
+}
+
+table {
+    width: 100%;
+    border-collapse: separate; 
+    /*borders gonna be separate isted of bulging or merging*/
+   
+    border-spacing: 10px;
+    margin: 5px auto;
+}
+
+button {
+    width: 100%;
+    height: 70px;
+    background: grey;
+    color: white;
+    border: none;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 12px;
+    cursor: pointer; /*on mobile the finger touch will be considered a touch which retreats*/    
+}
+
+.display {
+    width: 100%;
+    height: 90px;
+    text-align: right;
+    font-size: 3.5rem;
+    line-height: 90px;
+    padding: 0 20px;
+    margin: 10px 0 20px 0;
+    color: #00c04b;
+    background: #000;
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;/*if smth overflows then it would be hiddn*/
+}
+
+button:hover {
+    background: #777;
+}
+
+button:active {
+    background: #555;
+}
+
+.operator {
+    background: #ff9500;/*gold texture*/
+}
+
+.operator:hover {
+    background: #ffb143;/*lighter gold texture*/
+}
