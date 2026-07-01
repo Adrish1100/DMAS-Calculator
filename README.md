@@ -56,26 +56,6 @@ Calculator/
 
 ---
 
-## Screenshots
-
-Add screenshots of the project here.
-
-Example:
-
-```text
-screenshots/
-├── calculator-home.png
-└── calculator-demo.png
-```
-
-Or directly embed images:
-
-```markdown
-![Calculator Screenshot](screenshots/calculator-home.png)
-```
-
----
-
 ## How to Run
 
 1. Download or clone the project.
@@ -102,16 +82,16 @@ No installation, dependencies, or internet connection are required.
 
 ## Contributors
 
-### Adrish Datta
+### Adrish:
 - HTML
 - CSS
 
-### Friend
+### Shreyansh:
 - JavaScript
 
 ---
 
-## What I Learned
+## What We Learned
 
 During this project, I learned:
 
@@ -125,6 +105,8 @@ During this project, I learned:
 - Working collaboratively by dividing responsibilities
 
 ---
+## Active URL:
+- calculator.adrishdatta2012.workers.dev (Hosted using CloudFlare)
 
 ## Future Improvements
 
