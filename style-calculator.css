@@ -75,7 +75,8 @@ article{
     background: #555;
     color: #e5e7eb;
     text-align: left;
-    line-height: 1.4;
+    line-height: 1.5rem;
+    word-spacing:1.5px;
     padding:20px;
     margin:20px;
 }
@@ -98,8 +99,11 @@ header h1{
     margin:20px;
 }
 
+::marker{
+    color:#ff9500;
+}
 #reverse,#proceed{
     width:80%;
     border: 5px solid #555;
-    margin: 20px; 
+    margin: 30px;
 }
